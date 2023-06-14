@@ -1,9 +1,9 @@
-[
+[ 
     {
       "constant": false,
       "inputs": [
         {
-          "internalType": "address",
+          "internalType": "addraess",
           "name": "to",
           "type": "address"
         },
