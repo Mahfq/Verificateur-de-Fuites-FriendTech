@@ -19,5 +19,5 @@ Maintenant, vous pouvez exécuter le script avec la commande suivante :
 
 - **python friendtech.py**
 
-"N'oubliez pas de remplacer la variable Twitter par le pseudo de votre compte Twitter. Un exemple a été ajouté dans le code.
+N'oubliez pas de remplacer la variable Twitter par le pseudo de votre compte Twitter. Un exemple a été ajouté dans le code.
 
