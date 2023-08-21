@@ -9,11 +9,14 @@ Exécutez cette commande pour vérifier si vous disposez de la dernière version
 
 - **python --version**
 
-Vous devrez également installer la bibliothèque Pandas avec la commande suivante : 
+Vous devrez également installer la bibliothèque Pandas avec la commande suivante :  
+
 - pip install pandas
+- 
 N'oubliez pas de placer le fichier friendtech.csv dans le même dossier que friendtech.py.
 
-Maintenant, vous pouvez exécuter le script avec la commande suivante : 
+Maintenant, vous pouvez exécuter le script avec la commande suivante :  
+
 - python friendtech.py
 
 "N'oubliez pas de remplacer la variable Twitter par le pseudo de votre compte Twitter. Un exemple a été ajouté dans le code.
