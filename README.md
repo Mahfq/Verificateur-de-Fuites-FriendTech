@@ -15,7 +15,6 @@ Vous devrez également installer la bibliothèque Pandas avec la commande suivan
 
   
 N'oubliez pas de placer le fichier friendtech.csv dans le même dossier que friendtech.py.
-
 Maintenant, vous pouvez exécuter le script avec la commande suivante :  
 
 - **python friendtech.py**
