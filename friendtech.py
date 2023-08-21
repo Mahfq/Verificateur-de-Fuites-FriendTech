@@ -10,11 +10,16 @@ colonne_twitter = dataframe['twitterUsername']
 
 # Define the target Twitter username to search
 # Exemple: if the twitterUsername is @elonmusk so enter without the @
-twitter = "elonmusk"   
+twitter = "LapepiteCrypto"   
 
-for index, elem in enumerate(colonne_twitter):
-    if elem == twitter:
-        address = colonne_address[index]
-        print(f"The Twitter username '{twitter}' is associated with the address '{address}'.")
-    else: 
-        print(f"The Twitter username '{twitter}' was not found in the data.")  
+def search(twitter):
+    for index, elem in enumerate(colonne_twitter):
+        if elem == twitter:
+            address = colonne_address[index]
+            print(f"The Twitter username '{twitter}' is associated with the address '{address}'.")
+            return
+        else: 
+            print(f"The Twitter username '{twitter}' was not found in the data.")  
+            return
+
+search(twitter)
